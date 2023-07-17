@@ -529,7 +529,7 @@ class Aquacross_MetadataPlugin(p.SingletonPlugin, tk.DefaultDatasetForm):
     p.implements(p.ITemplateHelpers)
     p.implements(p.IActions)
     if spatial_loaded:
-        p.implements(p.ISpatialHarvester, inherit=True)
+        p.implements(ISpatialHarvester, inherit=True)
 
     #IActions
 
