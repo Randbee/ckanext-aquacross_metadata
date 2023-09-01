@@ -648,6 +648,8 @@ class Aquacross_MetadataPlugin(p.SingletonPlugin, tk.DefaultDatasetForm):
 
             i += 1
 
+        return package_dict
+
     # IDatasetForm
 
     def _modify_package_schema(self, schema):
