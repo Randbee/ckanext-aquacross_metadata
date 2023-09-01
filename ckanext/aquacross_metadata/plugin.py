@@ -1,6 +1,8 @@
 # encoding: utf-8
 
 import json
+import re
+
 import ckan.plugins as p
 import ckan.plugins.toolkit as tk
 import ckan.lib.navl.dictization_functions as df
